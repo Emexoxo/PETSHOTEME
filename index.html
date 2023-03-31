@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assents/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>PETSHOP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+<style>
+      .carousel-inner{
+        width: auto;
+      }
+      body{
+        background: url(assents/img/fondo.jpg)
+        }
+      .navbar{
+        background: url(assents/img/fondo.jpg);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="p-3 text-bg-dark">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+          </a>
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">About us</a></li>
+          </ul>
+  
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+          </form>
+  
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">Login</button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </header>
+      
+        </div>
+      </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assents/img/CARRUUUU.png" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="assents/img/CARU2.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="assents/img/carrusel2.jpg" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="check2" viewBox="0 0 16 16">
+          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+        </symbol>
+        <symbol id="circle-half" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+        </symbol>
+        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+          <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+          <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+        </symbol>
+        <symbol id="sun-fill" viewBox="0 0 16 16">
+          <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </symbol>
+      </svg>
+  
+      <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+                id="bd-theme"
+                type="button"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                aria-label="Toggle theme (auto)">
+          <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+          <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+              <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+              Light
+              <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+              <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+              Dark
+              <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+              <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+              Auto
+              <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+  
+      
+  <header data-bs-theme="dark">
+    <div class="collapse text-bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4>About</h4>
+            <p class="text-body-secondary">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4>Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Follow on Twitter</a></li>
+              <li><a href="#" class="text-white">Like on Facebook</a></li>
+              <li><a href="#" class="text-white">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </header>
+  
+  <main>
+  
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">NUESTROS PRODUCTOS</h1>
+          <p class="lead text-body-secondary">Aquí encontrarás todo lo necesario para el bienestar y necesidad de tu mascota, también juguetes y vestuario para cualquier tipo de raza</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">COMPRAR</a>
+            <a href="#" class="btn btn-secondary my-2">AGREGAR AL CARRITO</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/COMIDA.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">COMIDA PARA PERRO</text></center></img>
+              <div class="card-body">
+                <p class="card-text">PRO PAC ® Ultimates ™ - Meadow primer Cordero y Papa
+
+                  PRO PAC Ultimates - Meadow Primer Es Un Nuevo Enfoque Para La Nutrición pecado super premium granos. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+                  </div>
+                  <small class="text-body-secondary">20$</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/corral.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">CORRAL</text></center></img>
+              <div class="card-body">
+                <p class="card-text">PETMATE CORRAL SM PARA PERROS
+                  MEDIDAS DE CADA LADO 61X61 CMS Y SON 8 CARAS
+                  AMPLIA PUERTA DE ENTRADA
+                <br>Altura x Ancho: 61 m x 61 cm</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+                  </div>
+                  <small class="text-body-secondary">65$</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/Kennel.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">KENNEL MODERNA ROADRUNNER 1</text></center></img>
+              <div class="card-body">
+                <p class="card-text"> Perros o gatos hasta de 5kg.
+                   MEDIDAS INTERNAS: 47cms de prof x 28cms de ancho x 29cms de alto.
+                  MEDIDAS EXTERNAS :49cms de prof x 28cms de ancho x 30cms de alto
+                 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+                  </div>
+                  <small class="text-body-secondary">50$</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/paños.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">PAÑALES PARA PERROS</text></center></img>
+              <div class="card-body">
+                <p class="card-text">Pañales acostumbradores para Perros 58x61 Cms 100 Unidades <br>
+                <br></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+                  </div>
+                  <small class="text-body-secondary">67$</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/PLACAS.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">PLACAS</text></center></img>
+              <div class="card-body">Plaquitas para tu mascota con su nombre
+                <br>
+                <br>
+                <br>
+              </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+                  </div>
+                  <small class="text-body-secondary">5$ c/u</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/collar.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">COLLAR</text></center></img>
+              <div class="card-body">
+                <p class="card-text">Collar para perros o gatos pequeños
+                  <br> 
+                  <br>
+                  Mascotas de meses</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+                  </div>
+                  <small class="text-body-secondary">5$</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/comidaparagato.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">COMIDA PARA GATO</text></center></img>
+              <div class="card-body">
+                <p class="card-text">BOLSA AZUL SIN OLOR
+                  BOLSA VERDE OLOR A PINO
+                  BOLSA ROSADA OLOR A TALCO DE BEBÉ
+                  BOLSA MORADA OLOR A LAVANDA
+                <br>
+              <br>
+            <br></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+                  </div>
+                  <small class="text-body-secondary">32$</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/champu.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="10%" height="10%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">PRIME DE SEACHEM</text></center></img>
+              <div class="card-body">
+                <p class="card-text">Prime® es el acondicionador completo y concentrado para agua dulce y salada. Prime® elimina el cloro, la cloramina y desintoxica el amoníaco. Prime® convierte el amoníaco en una forma segura y no tóxica que se elimina fácilmente mediante el biofiltro del tanque.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+                  </div>
+                  <small class="text-body-secondary">30$</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/arenero.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">ARENERO</text></center></img>
+              <div class="card-body">
+                <p class="card-text">STEFANPLAST SPRINT 20 CON BORDE
+                  MEDIDAS 58 CMS DE LARGO X 39 CMS DE ANCHO X 17 DE ALTO 
+                  COLORES DISPONIBLES LOS PUBLICADOS
+                  ITEMS 96570 AZUL ACERO / 96595 GRIS / 96596 ROSSY CIPRIA / 96593 VERDE</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+                  </div>
+                  <small class="text-body-secondary">15$</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/comidaparaconejkoooo.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">ALIMENTO KAYTEE HENO</text></center></img>
+          <div class="card-body">
+            <p class="card-text"> Conejo Cobayo Hamster Chinchilla 24 Oz
+
+              Kaytee Timothy Hay Plus Zanahorias combina los beneficios del heno Timothy con la variedad de sabor y textura que complementa cualquier alimento fortificado Kaytee. </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">LOTE</button>
+              </div>
+              <small class="text-body-secondary">Disponible</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/KENNELL2.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">KENNEL EXTENDIBLE</text></center></img>
+          <div class="card-body">
+            <p class="card-text">Bolso Petmate Extendible 45x28x 28 Cms De Alto,7 Kg Trabillas exteriores para cinturón de seguridad para una conducción segura en el vehículo, dos correas para un fácil transporte.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+              </div>
+              <small class="text-body-secondary">50$</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/pALA.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">PALA</text></center></img>
+          <div class="card-body">
+            <p class="card-text">Pala Plastica Moderna Handy Para Arenero De Gatos MEDIDAS L 27.8 x W 10.3 x H 4.3 cm
+              <br>
+              <br>
+              <br>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+              </div>
+              <small class="text-body-secondary">3$</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/platos.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">TAZAS PARA LA COMIDA</text></center></img>
+          <div class="card-body">
+            <p class="card-text">KUMAR PLATO acero inoxidable x 1 unidad
+              MEDIDA 24,5 cms de DIAMETRO X 10 CMS DE ALTURA
+            <br>
+          <br></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+              </div>
+              <small class="text-body-secondary">10$</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/bebedero.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">BEBEDEROS</text></center></img>
+          <div class="card-body">
+            <p class="card-text">KUMAR PLATO acero inoxidable con goma antiresbalante
+                        MEDIDA 25 cms de DIAMETRO X 8 CMS DE ALTURA
+              <br>
+            <br>
+          </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+              </div>
+              <small class="text-body-secondary">10$</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/colchon1.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">CAMA</text></center></img>
+          <div class="card-body">
+            <p class="card-text">Petmate Cama Para Kennel 200 60x42x3 Cms
+              MEDIDAS 60 CMS DE LARGO X 42 CMS DE ANCHO X 3 CMS DE ALTO
+            <br>
+        <br></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+              </div>
+              <small class="text-body-secondary">40$</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/cama2.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">CAMA PARA CACHORROS</text></center></img>
+          <div class="card-body">
+            <p class="card-text">Petmate Cama Cachorros Importada, 64x42x5 Cms
+              <br>
+              <br>
+              <br>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+              </div>
+              <small class="text-body-secondary">30$</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/casa1.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">CAMA CASA PARA GATO</text></center></img>
+          <div class="card-body">
+            <p class="card-text">Cama Casa Importada Para Gatos C/almohada Acolchada Incluida
+              <br>
+              <br>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+              </div>
+              <small class="text-body-secondary">70$</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="assents/img/JEUGOOO.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/> <center><text x="50%" y="50%" fill="#eceeef" dy=".3em">PARQUE CAMA PARA GATOS</text></center></img>
+          <div class="card-body">
+            <p class="card-text">Parque Cama Arañador Gatos 58 Cms Alto Americana
+              MEDIDAS 51 X 51 X 61 CMS DE ALTO
+              <br>
+              <br>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar Unidad</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Comprar LOTE</button>
+              </div>
+              <small class="text-body-secondary">115$</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assents/img/Accesorios.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Accesorios</h5>
+        <p>Busca lo mejor para tu mascota</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assents/img/comiditaaaa.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Comida</h5>
+        <p>Comida de la mejor calidad para el bienestar de tu mascota</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assents/img/ropaaa.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ropa para Mascotas</h5>
+        <p>Encuentra los mejores estilos para tu mascota</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container py-3">
+  
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">PROMOS</h1>
+      <p class="fs-5 text-body-secondary">No te pierdas de las ultimas promociones que tenemos disponibles, llevate productos de calidad a precios increibles. 
+        <br>
+        Compurebalo tú mismo.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Small</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">4<small class="text-body-secondary fw-light">x20$</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>1 Comida para perros 1kg</li>
+              <li>1 collar</li>
+              <li>1 correa</li>
+              <li>1 Pelota</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Medium</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">10<small class="text-body-secondary fw-light">x50$</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>5 Comida para perro 1kg</li>
+              <li>5 Comida para gato 1kg</li>
+              <li>1 collar</li>
+              <li>5 placas</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Buy it</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">20<small class="text-body-secondary fw-light">x100$</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 Comida para perro 1kg</li>
+              <li>10 Comidapara gato 1kg</li>
+              <li>1 Kennel</li>
+              <li>10U de Pañales</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Buy it</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      </div>
+      <br>
+      
+      </div>
+    
+      </div>
+  </body>
+  <div class="b-example-divider"></div>
+
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Sección de Peces</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Comida</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Productos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Complementos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Medicamentos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Algo más</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Sección de Perros</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Comida</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Productos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Vestimentas</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Medicamentos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Juguetes</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Sección de gatos</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Comida</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Productos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Vestimentas</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Medicamentos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Juguetes</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribete a nuestra pagina</h5>
+            <p>Sabrás sobre todos los productos que dispongamos y podrás tener descuentos, así como también notificación de las promociones.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2023 Maracaibo, Venezuela. Emely Vilchez.
+          <br>
+          All rights reserved.
+        </p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+    
+  </div>
+</html>
